@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"module": "None",
+		"experimentalDecorators": true,
+		"noImplicitReturns": false,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"allowUnreachableCode": true,
+		"strict": true,
+		"exactOptionalPropertyTypes": false,
+		"useUnknownInCatchVariables": false,
+		"forceConsistentCasingInFileNames": true,
+		"types": [],
+		"lib": [
+			"ES2022"
+		],
+	},
+	"include": [
+		"vscode-dts/vscode.d.ts"
+	]
+}
