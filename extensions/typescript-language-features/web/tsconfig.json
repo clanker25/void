@@ -1,0 +1,14 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"outDir": "../../out",
+		"esModuleInterop": false,
+		"experimentalDecorators": true,
+		"types": [
+			"node"
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	]
+}
