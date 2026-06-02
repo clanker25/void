@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2016",
+		"strict": false,
+		"noUnusedParameters": true,
+		"noUnusedLocals": false,
+		"outDir": "out",
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"declaration": false,
+		"lib": [
+			"esnext", // for #201187
+			"dom"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"out",
+		"tools"
+	]
+}
